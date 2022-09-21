@@ -1,10 +1,9 @@
-import { View } from "react-native";
+import React from 'react';
+import { ContadorScreen } from './src/screens/ContadorScreen';
 
 export const App = () => {
   return (
-    <View>
-      <h1>AppPrincipal</h1>
-    </View>
+  //  <HolaMundoScreen />
+   <ContadorScreen />
   );
 };
- 
