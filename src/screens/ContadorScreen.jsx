@@ -19,7 +19,6 @@ export const ContadorScreen = () => {
           <Text style={style.fabText}>-1</Text>
         </View>
       </TouchableOpacity>
-
     </View>
   );
 };
@@ -33,6 +32,7 @@ const style = StyleSheet.create({
     textAlign: 'center',
     fontSize: 30,
     top: -15,
+    color: 'black',
   },
   fabLocationBR: {
     position: 'absolute',
